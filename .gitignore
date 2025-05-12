@@ -9,5 +9,5 @@ wheels/
 # Virtual environments
 .venv
 
-# EDAA.py
-src/EDA.py
+# ignore .env
+.env
