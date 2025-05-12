@@ -1,18 +1,10 @@
 from pydantic import BaseModel
 from typing import Optional
 
-class WalletFeatures(BaseModel):
-    total_transactions: int
-    inflow: float
-    outflow: float
-    inflow_outflow_ratio: float
-    duration_days: int
-    transactions_per_day: float
-    minted_tokens: int
-    avg_mint_time: float
-    early_pump_and_dump_flag: int
+class WalletAddressRequest(BaseModel):
+    wallet_address: str
 
-
-class PredictionResponse(BaseModel):
-    risk_label: int
-    risk_probability: float
+class WalletRiskResponse(BaseModel):
+    wallet_address: str
+    risk_score: int
+    risk_level: float
