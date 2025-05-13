@@ -9,7 +9,6 @@ import pandas as pd
 load_dotenv()
 
 HELIUS_API_KEY = os.getenv("HELIUS_API_KEY")
-# HELIUS_API_URL = "https://api.helius.xyz/v1/"
 
 def get_wallet_data(wallet_address, limit=10):
     url = f"https://api.helius.xyz/v0/addresses/{wallet_address}/transactions?api-key={HELIUS_API_KEY}&limit={limit}"
@@ -67,7 +66,7 @@ def parse_transaction(transactions: list[dict], wallet_address: str):
                     "to": token.get("tokenAccount"),
                     "amount": int(amt["tokenAmount"]) / (10 ** int(amt["decimals"])),
                     "token_mint": token.get("mint"),
-                    "direction": None  # Optional: or you could compute similar logic
+                    "direction": None  
                 })
     return parsed
 
