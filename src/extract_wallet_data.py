@@ -94,8 +94,8 @@ def process_wallets(wallets: list[str]):
 
 if __name__ == "__main__":
     wallet_address = [
-        "Be9RC2UC4GkV97XHe31aEULMXpex5ZbDt1cUGiwZjoEg",
-        "7HdZJzZV1Va6H2KvyYCym6q7j5BmEdHz7ikUkdNfuGcz",
+        'Be9RC2UC4GkV97XHe31aEULMXpex5ZbDt1cUGiwZjoEg',
+        '7HdZJzZV1Va6H2KvyYCym6q7j5BmEdHz7ikUkdNfuGcz',
         '9Y75YHyA8GBAaMsFNqfAEChfwxyvVhgVihkK9NPRWXkS',
         'Habp5bncMSsBC3vkChyebepym5dcTNRYeg2LVG464E96',
         'Be9RC2UC4GkV97XHe31aEULMXpex5ZbDt1cUGiwZjoEg',

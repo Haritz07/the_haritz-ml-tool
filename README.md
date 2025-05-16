@@ -1,7 +1,11 @@
 # The Haritz Project - Wallet Risk Analysis Scoring API
 
 ## Overview
+<<<<<<< HEAD
 The Haritz Project is a ML-powered API that assesses the **risk score** and **risk level** of a Solana wallet address using different transaction behaviours. The project is powered with **FastAPI**, the API takes only the wallet address as input and the trained model (**XGBoost**) returns the calculated risk score and risk level, the risk level is a percentage of how heavey the risk of that wallet is, the risk score will diplay either 0 or 1, where 0 implies **not risky** and 0 implies **risky**, but the risk level returns how heavy that risk might be. This repository contains all the necessary files and documentation to help you understand, contribute to, and use the project effectively.
+=======
+The Haritz Project is an ML-powered API that assesses the **risk score** and **risk level** of a Solana wallet address using different transaction behaviours. The project is powered with **FastAPI**, the API takes only the wallet address as input and the trained model (**XGBoost**) returns the calculated risk score and risk level, the risk level is a percentage of how heavey the risk of that wallet is, the risk score will diplay either 0 or 1, where 0 implies **not risky** and 0 implies **risky**, but the risk level returns how heavy that risk might be. This repository contains all the necessary files and documentation to help you understand, contribute to, and use the project effectively.
+>>>>>>> 1b1f1ef744b958eaa13525c713bbfa456397c28f
 
 ## Features
 - Accepts a single wallet address as input
@@ -65,4 +69,8 @@ Contributions are welcome! Please follow these steps:
 
 
 ## Contact
+<<<<<<< HEAD
 For questions or feedback, please contact TheDarkKnight or Haritz at *ayemiade2006@gmail.com*.
+=======
+For questions or feedback, please contact TheDarkKnight or THE_Haritz at *ayemiade2006@gmail.com* and *oreoluwqaisrael07@gmail.com* respectively.
+>>>>>>> 1b1f1ef744b958eaa13525c713bbfa456397c28f

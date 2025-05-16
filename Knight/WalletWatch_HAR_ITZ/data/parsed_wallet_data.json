@@ -1,0 +1,17 @@
+{
+    "signature": "4jRw3MWiZnr9gFubijDBUQZuiEbrUAWJ6oszrwvxopDyjwSUhDSCS2wuNpXJQtrDZGQQyQLkPUFvegoTqapMoeyH",
+    "timestamp": "2025-03-01T16:27:35",
+    "fee": 5000,
+    "fee_payer": "65vttyvwXPvBV866N7JbQioa6GoQQiG7mDKDM8EnMbKE",
+    "native_transfers": [
+        {
+            "from": "65vttyvwXPvBV866N7JbQioa6GoQQiG7mDKDM8EnMbKE",
+            "to": "Be9RC2UC4GkV97XHe31aEULMXpex5ZbDt1cUGiwZjoEg",
+            "amount_SOL": 0.057389129
+        }
+    ],
+    "token_transfers": [],
+    "program_ids": [
+        "11111111111111111111111111111111"
+    ]
+}
