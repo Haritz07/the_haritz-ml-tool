@@ -8,7 +8,8 @@ from fastapi import HTTPException
 
 features_df = pd.read_csv("data/wallet_features_with_risk_score.csv")
 
-model = joblib.load(r'C:\Users\Josh\Desktop\Knight\WalletWatch_HAR_ITZ/src/model/xgb_model.pkl')
+model = joblib.load("src/model/xgb_model.pkl")
+
 
 app = FastAPI(
     title="Wallet Risk Detection API",
